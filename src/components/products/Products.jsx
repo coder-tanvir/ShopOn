@@ -1,28 +1,8 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import Product from "./Product/Product.jsx";
-const products = [
-  {
-    id: 1,
-    name: "Nike Foamposite",
-    description: "Good for Basketball",
-    price: "$200",
-  },
-  {
-    id: 2,
-    name: "Adidas Allstar",
-    description: "Good for Basketball",
-    price: "$90",
-  },
-  {
-    id: 3,
-    name: "Adidas Terrex",
-    description: "Fluffy jacket",
-    price: "$250",
-  },
-];
 
-const Products = () => {
+const Products = ({ products }) => {
   return (
     <main>
       <Grid container justify="center" spacing={4}>
