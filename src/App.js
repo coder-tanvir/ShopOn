@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Cart from "./components/Cart/Cart";
 import { commerce } from "./lib/commerce";
 import Products from "./components/products/Products";
+import Checkout from "./components/CheckoutForm/Checkout/Checkout";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
   const [products, setProducts] = useState([]);
@@ -63,6 +64,7 @@ const App = () => {
               />
             }
           ></Route>
+          <Route exact path="/checkout" element={<Checkout />}></Route>
         </Routes>
       </div>
     </Router>

@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
-import logo from "../../assets/shop.png";
+import logo from "../../assets/galaxy.png";
 import useStyles from "./styles";
 import { Link, useLocation } from "react-router-dom";
 const Navbar = ({ totalItems }) => {
@@ -32,7 +32,7 @@ const Navbar = ({ totalItems }) => {
               height="25px"
               className={classes.image}
             />
-            ShopOn!
+            GalaxyShop
           </Typography>
           <div className={classes.grow} />
           {location.pathname === "/" && (
