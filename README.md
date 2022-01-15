@@ -10,7 +10,7 @@ React.js, Commercejs, Material-ui
 
 # Description
 
-This is a online store with Commercejs working as back-end and React.js in the front. Products are inserted with image, location, delivery countries, delivery pricing, description. These products are rendered on the page with material Ui. The application is divided in components, where each component communicating with each other with props. Each component has their own style.js files.
+This is a online store with Commercejs working as back-end and React.js in the front. Products are inserted with image, location, delivery countries, delivery pricing, description. These products are rendered on the page with material Ui. The application is divided in components, where each component communicating with each other with props. Each component has their own style.js files. The user can add items and stop using the application. The application will remember the items in the cart. Additionally, user can add, subtract or remove items from the cart. when checking out, user can click on the country and select from the countries available for this product.
 
 # Getting Started with Create React App
 
