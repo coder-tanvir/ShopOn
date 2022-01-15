@@ -1,3 +1,17 @@
+# GalaxyShop
+
+# Architecture
+
+React components
+
+# Technology used
+
+React.js, Commercejs, Material-ui
+
+# Description
+
+This is a online store with Commercejs working as back-end and React.js in the front. Products are inserted with image, location, delivery countries, delivery pricing, description. These products are rendered on the page with material Ui. The application is divided in components, where each component communicating with each other with props. Each component has their own style.js files.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
